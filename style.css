@@ -1,0 +1,330 @@
+@font-face {
+    font-family: nimbus;
+    src: url(./NimbusSanL-Reg.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nimbus;
+}
+ 
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+    padding : 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+#nav #ncenter{
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#content{
+    width: 100%;
+    height: 100vh;
+    padding : 3vw 10vw;
+    /* background-color: bisque; */
+    margin-top: 13vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sustain{
+    margin-top: 20vh;
+    /* background-color: aqua; */
+    line-height: 1;
+    width: 14vw;
+}
+
+#sustain p{
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.5;
+    margin: 11px 0;
+    text-transform: capitalize;
+}
+
+#sustain #susimgwrap{
+    /* background-color: rebeccapurple; */
+    width: 75%;
+    height: 16vw;
+    margin-top: 17px;
+}
+
+#sustain #susimgwrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ephemeral{
+    width: 40%;
+    /* background-color: deepskyblue; */
+    align-items: center;
+}
+
+#ephemeral img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    object-fit: fill;
+}
+
+#ephemeral #headings{
+    position: absolute;
+    z-index: 999;
+    margin-top: -9.5vw;
+    margin-left: -3.5vw;
+}
+
+#ephemeral #headings h1{
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.3vw;
+}
+
+#ephemeral h3{
+    width: 45%;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 2vw;
+    padding-top: 2vh;
+}
+
+#visit{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#visit h4{
+    font-weight: 500;
+    color: #5e5e5e;
+} 
+
+#content #visit #circlev{
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 1px #5e5e5e solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+#circlev i{
+    color: #5e5e5e;
+}
+
+#motive{
+    padding: 0 13vw;
+}
+
+#motive #header h3{
+    font-size: 1.4vw ;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+#motive #motivep p{
+    padding-top: 2vw;
+    line-height: 3vw;
+    padding-left: 12vw;
+    font-size: 29px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#woman img{
+    height: 3vw;
+    width: 4vw;
+    border-radius: 500px;
+    object-fit: cover;
+    margin-bottom: -0.9vw;
+}
+
+#cabbage img{
+    height: 3vw;
+    width: 5.5vw;
+    border-radius: 500px;
+    object-fit: cover;
+    margin-bottom: -1vw;
+}
+
+#grass img{
+    height: 3vw;
+    width: 4vw;
+    border-radius: 500px;
+    object-fit: cover;
+    margin-bottom: -1vw;
+}
+
+#imgs{
+    width: 100%;
+    padding: 12vh 20vw;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: tomato; */
+}
+
+#synergy{
+    width: 20%;
+}
+
+#synergy img{
+    height:21vw;
+    width: 13vw;
+    object-fit: cover;
+}
+
+#synergy h1{
+    padding : 1.5vh 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#synergy p{
+    margin-top: -0.8vh;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#harmony{
+    width: 30%;
+    text-align: right;
+}
+
+#harmony img{
+    height: 30vw;
+    width: 18vw;
+    object-fit: cover;
+}
+
+#harmony h1{
+    padding : 1.5vh 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#harmony p{
+    margin-top: -0.8vh;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#banner{
+    width: 100%;
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+#bnrwrpr{
+    width: 70%;
+    height: 40vw;
+}
+
+#bnrwrpr img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
+#biodeg{
+    width: 30%;
+    padding-left: 3vw;
+    padding-right: 7vw;
+}
+
+#biodeg h1{
+    font-size: 29px;
+    font-weight: 600;
+}
+
+#biodeg p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2vh;
+}
+
+#future{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#future video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    object-fit: cover;
+}
+
+#future #ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+}
+
+#ftext button{
+    padding: 0.6vw 1.4vw;
+    font-size: 0.9vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    color: #6f6f6f;
+    background-color: #fff;
+    border : 1px solid #c6c6c6
+}
+
+#ftext h1{
+    mix-blend-mode: difference;
+}
